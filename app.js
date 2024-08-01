@@ -1,6 +1,6 @@
 let numeroSecreto = 0;
 let intentos = 1;
-let numeroMaximo = 10;
+let numeroMaximo = 100;
 let numeroJuegos = 2;
 let numero = parseInt('123abc');
 let numero2 = Number('123abc');
