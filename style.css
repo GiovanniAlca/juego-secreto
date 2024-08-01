@@ -151,3 +151,35 @@ button {
         text-align: left;
     }
 }
+
+@media (max-width: 767px) {
+    .container__imagen-persona {
+        display: none;
+    }
+
+    .container {
+        height: auto;
+        max-height: none;
+        background-image: none;
+    }
+
+    .container__contenido {
+        flex-direction: column;
+    }
+
+    .container__informaciones {
+        padding: 1rem;
+    }
+
+    .container__botones {
+        gap: 1em;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .texto__parrafo {
+        font-size: 18px;
+    }
+}
